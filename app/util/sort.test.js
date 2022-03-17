@@ -1,4 +1,6 @@
-import { numberAscending, stringAlphabetical } from './sort.js'
+import factory from './sort.js'
+
+const { numberAscending, stringAlphabetical } = factory()
 
 describe('numberAscending()', () => {
   it('subtracts arg1 from arg2', () => {
